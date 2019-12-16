@@ -1,0 +1,15 @@
+Welcome to Kulami, in this repository, there is two program. They both rely on
+library pygame, keras, tensflow and numpy. So if you haven't install these package
+use "pip install " command install.
+
+Kulami program is used to generate trainset data, it generate two robots and
+automatically play. You can directly run main.py, you can change the parameter
+stat.width and stat.height in main.py to change the board size to generate
+different trainset.
+
+Kulami_CNN_player use already trained dataset to create AI robot to play with you.
+Because we trained two dataset with size=6 and size=7. So we can play with AI in
+board 6 or 7, you can run main.py and select in GUI. You also can generate you own
+trainset from Kulami program and copy the trainset data into Kulami_CNN_player folder.
+
+In this game, you play first.
